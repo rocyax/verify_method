@@ -98,6 +98,8 @@ error during command execution: failed to verify signature: could not verify mes
 1. 证明游戏文件的hash有效
 2. 证明游戏目录没有增添/缺失文件
 
+Windows用户需要安装[Microsoft Coreutils](https://github.com/microsoft/coreutils), 这是因为我们需要运行`sha256sum -c ...`, Powershell自动的功能不好用.
+
 运行方法，在游戏根目录外，运行(示例)
 ```powershell
 .\Verify-FileTree.ps1 -Root .\kinky-dungeon-win_64
