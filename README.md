@@ -90,7 +90,8 @@ issuer：https://github.com/login/oauth
 
 接受的结果：`Verified OK`
 
-不接受的结果：`Error: failed to verify signature: could not verify message: invalid signature when validating ASN.1 encoded signature
+不接受的结果：除 `Verified OK` 以外的任何结果，例如：
+`Error: failed to verify signature: could not verify message: invalid signature when validating ASN.1 encoded signature
 error during command execution: failed to verify signature: could not verify message: invalid signature when validating ASN.1 encoded signature`
 
 ## 使用sha256sum校验游戏文件
