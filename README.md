@@ -18,7 +18,7 @@
 
 有两种方法
 
-### OpenGPG
+### OpenPGP
 
 安装[gpg4win](https://www.gpg4win.org/)
 
