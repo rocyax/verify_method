@@ -64,7 +64,7 @@ try {
             Normalize-RelativePath $path
         } |
         Sort-Object -Unique
-    $actual = Get-ChildItem -File -Recurse |
+    $actual = Get-ChildItem -File -Recurse -Force|
         Where-Object {
             $rel = Resolve-Path -LiteralPath $_.FullName -Relative
             $rel = Normalize-RelativePath $rel
