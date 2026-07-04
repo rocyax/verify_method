@@ -35,7 +35,10 @@
 比对主公钥指纹(必须认真比对！)：
 
 ```
-BDAF8C63A4D289E6BB98894B1F14D32AA81387E8
+email: rocyax@gmail.com
+
+公钥指纹：BDAF8C63A4D289E6BB98894B1F14D32AA81387E8
+(可选)v5公钥指纹：76DA9A216E4C935988DDF7D46F4576BC7703E0E1DC82D5F2884D670A5F69FEA3
 ```
 
 <img width="50%" width="1712" height="866" alt="image" src="https://github.com/user-attachments/assets/0a42aa72-88bc-452b-9998-5148f82a7f32" />
